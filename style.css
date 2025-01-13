@@ -1,0 +1,47 @@
+body {
+    background-image: url('./aasets/woodbg.png');
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+    color: white;
+}
+
+#div1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 10vw;
+}
+#result{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#buttons{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    gap: 10vw;
+    margin-top: 15vh;
+}
+#rock, #paper, #scissor{
+    height: 8vh;
+    width: 8vw;
+    border-radius: 10px;
+
+}
+
+#computer{
+    /* border: 1px solid black; */
+    height: 30vh;
+    width: 20vw;
+}
+#user{
+    /* border: 1px solid black; */
+    height: 30vh;
+    width: 20vw;
+}
+

@@ -4,16 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rockpaperscissor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h2>Computer Choice: <span id="computer-choice"></span></h2>
-    <h2>User Choice: <span id="user-choice"></span></h2>
-    <h2>Result: <span id="result"></span></h2>
+    <h2><span id="result"></span></h2>
+    <div id="div1">
+        <div>
+            <h2>Computer</h2>
+            <div id="computer"><div id="computer-choice"></div></div>
+        </div>
+        <div>
+            <h2>User</h2>
+            <div id="user"><div id="user-choice"></div></div>
+        </div>
+    </div>
 
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissor">Scissor</button>
+    <div id="buttons">
+        <div>
+            <button id="rock">Rock</button>
+        </div>
+        <div>
+            <button id="paper">Paper</button>
+        </div>
+        <div>
+            <button id="scissor">Scissor</button>
+        </div>
+    </div>
 
     <script src="app.js" charset="utf-8"></script>
 </body>

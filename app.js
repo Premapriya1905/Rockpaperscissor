@@ -8,7 +8,7 @@ let result
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e)=>{
     userChoice = e.target.id 
-    userChoiceDisplay.innerHTML = userChoice
+    userChoiceDisplay.innerHTML = `<img src="aasets/${userChoice}.png" alt="${userChoice}" style="width: 20vw; height: 30vh;">`
     generateComputerChoice()
     getResult()
 }))
@@ -23,7 +23,7 @@ function generateComputerChoice(){
     }if(randomNumber === 3){
         computerChoice = "paper"
     }
-    computerChoiceDisplay.innerHTML=computerChoice;
+    computerChoiceDisplay.innerHTML=`<img src="./aasets/${computerChoice}.png" alt="${computerChoice}" style="width: 20vw; height: 30vh;">`;
 }
 
 function getResult(){
