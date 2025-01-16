@@ -31,17 +31,30 @@ body {
     height: 8vh;
     width: 8vw;
     border-radius: 10px;
-
 }
 
 #computer{
-    /* border: 1px solid black; */
     height: 30vh;
     width: 20vw;
 }
 #user{
-    /* border: 1px solid black; */
     height: 30vh;
     width: 20vw;
 }
 
+#restart {
+    display: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 1vw;
+    color: white;
+    background-color: green;
+    margin-left: 47vw;
+    margin-top:10vh;
+}
+
+#score{
+    font-size:xx-large;
+    margin-top: 8vh;
+}
